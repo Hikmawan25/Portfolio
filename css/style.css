@@ -131,8 +131,8 @@ img {
 	width: 100%;
 	margin: 50px auto;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
+	flex-direction: row;
 	text-align: center;
 	box-sizing: border-box;
 	align-items: center;
@@ -371,6 +371,20 @@ span.menu-toggle:hover {
 	img {
 		position: relative;
 	}
+	.Description {
+		flex-direction: column;
+	}
+	.Description1 {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.Description2 {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.Description3 {
+		width: 100%;
+	}
 	form .half {
     	flex-direction: column;
 	}
@@ -394,6 +408,20 @@ span.menu-toggle:hover {
 	}
 	img {
 		position: relative;
+	}
+	.Description {
+		flex-direction: column;
+	}
+	.Description1 {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.Description2 {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.Description3 {
+		width: 100%;
 	}
 	 form .half{
     	flex-direction: column;
